@@ -5,11 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PixelDrip Studio | Marketing That Actually Works</title>
     <meta name="description" content="Texas marketing agency that fixes what's broken. Web design, SEO, Google Ads, Google Business Profile, and branded print. Real results for real businesses." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://pd-homepage-react.pages.dev/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pd-homepage-react.pages.dev/" />
+    <meta property="og:title" content="PixelDrip Studio | Marketing That Actually Works" />
+    <meta property="og:description" content="Texas marketing agency that fixes what's broken. Web design, SEO, Google Ads, Google Business Profile, and branded print. Real results for real businesses." />
+    <meta property="og:image" content="https://res.cloudinary.com/dfq0nosxj/image/upload/c_fill,g_auto,h_630,w_1200,f_auto,q_auto/v1778344173/pixeldrip-home-service-hero_xhwhg1.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="PixelDrip Studio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PixelDrip Studio | Marketing That Actually Works" />
+    <meta name="twitter:description" content="Texas marketing agency that fixes what's broken. Web design, SEO, Google Ads, Google Business Profile, and branded print. Real results for real businesses." />
+    <meta name="twitter:image" content="https://res.cloudinary.com/dfq0nosxj/image/upload/c_fill,g_auto,h_630,w_1200,f_auto,q_auto/v1778344173/pixeldrip-home-service-hero_xhwhg1.webp" />
+
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://res.cloudinary.com" />
+
+    <!-- Preload hero LCP image -->
+    <link rel="preload" as="image" href="https://res.cloudinary.com/dfq0nosxj/image/upload/f_auto,q_auto/v1778344173/pixeldrip-home-service-hero_xhwhg1.webp" fetchpriority="high" />
+
+    <!-- Fonts — async load so they never block rendering -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://pd-homepage-react.pages.dev/#business",
+          "name": "PixelDrip Studio",
+          "legalName": "PixelDrip Studio LLC",
+          "description": "Texas marketing agency specializing in web design, SEO, Google Ads, AI automation, and branded print.",
+          "url": "https://pd-homepage-react.pages.dev/",
+          "telephone": "+18328101502",
+          "email": "hello@pixeldripstudio.com",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "459 Marshall Lane",
+            "addressLocality": "Hemphill",
+            "addressRegion": "TX",
+            "postalCode": "75948",
+            "addressCountry": "US"
+          },
+          "areaServed": {
+            "@type": "State",
+            "name": "Texas",
+            "sameAs": "https://en.wikipedia.org/wiki/Texas"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Marketing Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web Design" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO & AI Search" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Ads" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Automations" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Management" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sales Funnels" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Signs & Displays" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Branded Apparel" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Print & Promo Materials" } }
+            ]
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://pd-homepage-react.pages.dev/assets/logo-horizontal-fullcolor-white.svg"
+          },
+          "image": "https://res.cloudinary.com/dfq0nosxj/image/upload/c_fill,g_auto,h_630,w_1200,f_auto,q_auto/v1778344173/pixeldrip-home-service-hero_xhwhg1.webp"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://pd-homepage-react.pages.dev/#website",
+          "url": "https://pd-homepage-react.pages.dev/",
+          "name": "PixelDrip Studio",
+          "publisher": { "@id": "https://pd-homepage-react.pages.dev/#business" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://pd-homepage-react.pages.dev/#webpage",
+          "url": "https://pd-homepage-react.pages.dev/",
+          "name": "PixelDrip Studio | Marketing That Actually Works",
+          "description": "Texas marketing agency that fixes what's broken. Web design, SEO, Google Ads, Google Business Profile, and branded print. Real results for real businesses.",
+          "isPartOf": { "@id": "https://pd-homepage-react.pages.dev/#website" },
+          "about": { "@id": "https://pd-homepage-react.pages.dev/#business" },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What exactly is the Free Inspection?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It's a no-cost audit of your website, local search visibility, and ad spend. We identify what's working, what's broken, and what to fix first -- then walk you through it on a call. No pitch, no pressure."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I have to sign a long-term contract?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. We work month-to-month on most services. We'd rather earn your business every month than lock you in."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long before I see results?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It depends on the service. Ads can drive traffic within days. SEO typically shows meaningful movement in 60-90 days. We set clear expectations upfront so you always know what to expect."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you only work with Texas businesses?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We're Texas-based and built for Texas markets, but we work with businesses across the US. If you're outside Texas, reach out and we'll let you know if we're a good fit."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What makes PixelDrip different from other agencies?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most agencies stay in one lane. We handle digital and physical marketing together -- website, search, ads, signage, apparel, print -- as one connected system. And you always talk to real people, not account managers reading from a script."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

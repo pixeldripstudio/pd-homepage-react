@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section id="pd-home-hero" className="section-hero" aria-label="Hero">
       <img
-        src="https://res.cloudinary.com/dfq0nosxj/image/upload/v1778344173/pixeldrip-home-service-hero_xhwhg1.webp"
+        src="https://res.cloudinary.com/dfq0nosxj/image/upload/f_auto,q_auto/v1778344173/pixeldrip-home-service-hero_xhwhg1.webp"
         alt="PixelDrip Studio — marketing that works for Texas businesses"
         className="hero-bg"
         fetchPriority="high"
